@@ -1,0 +1,19 @@
+body {
+}
+
+.flex-container {
+  display: flex; /* or inline-flex */
+  background-color: yellow;
+  flex-direction: row; /* row | row-reverse | column | column-reverse */
+  flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
+}
+.flex-container-column {
+  display: flex; /* or inline-flex */
+  background-color: blue !important;
+  flex-direction: column; /* row | row-reverse | column | column-reverse */
+}
+
+.item {
+  padding: 10px;
+  background-color: red;
+}
